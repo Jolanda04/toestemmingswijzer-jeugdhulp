@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/sparringspartner_toestemming", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/sparringspartner_toestemming", "destination": "/index.html" }
+  ]
+}
