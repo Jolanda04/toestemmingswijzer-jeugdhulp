@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1970.47 2556.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ac9a72;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-1" cx="1332.68" cy="610.34" rx="637.79" ry="604.98"/>
+  <path class="cls-1" d="M0,2556.51c383.88,0,694.89-229.41,694.89-512.48V5.36"/>
+  <polygon class="cls-1" points="1073.82 2556.5 1452.73 1215.32 694.9 1215.32 1073.82 2556.5"/>
+  <polygon class="cls-1" points="1591.55 2556.5 1970.47 1215.32 1212.63 1215.32 1591.55 2556.5"/>
+  <line class="cls-1" x1="1332.68" y1="5.36" x2="1332.68" y2="1215.32"/>
+</svg>

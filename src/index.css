@@ -1,0 +1,172 @@
+@import "tailwindcss";
+@import "@fontsource/inter/latin-300.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/newsreader/latin-300.css";
+@import "@fontsource/newsreader/latin-300-italic.css";
+
+/* Huisstijl Jolanda Winters (Studio Haume). Alle kleuren zijn afgeleid van het palet. */
+@theme {
+  --color-white: #FDF9F3;
+  --color-black: #2D2923;
+  --color-wit: #FDF9F3;
+  --color-zwart: #2D2923;
+  --color-linnen: #D1D0BE;
+  --color-goud: #AC9A72;
+  --color-walnoot: #544433;
+  --color-kaneel: #92673F;
+  --color-slate-50: #FDF9F3;
+  --color-slate-100: #F0EDE3;
+  --color-slate-200: #E3E0D3;
+  --color-slate-300: #D1D0BE;
+  --color-slate-400: #8B8781;
+  --color-slate-500: #706C66;
+  --color-slate-600: #57534D;
+  --color-slate-700: #423E38;
+  --color-slate-800: #2D2923;
+  --color-slate-900: #2D2923;
+  --color-slate-950: #2D2923;
+  --color-blue-50: #F1ECE6;
+  --color-blue-100: #E5E0D8;
+  --color-blue-200: #CEC6BD;
+  --color-blue-300: #B1A89D;
+  --color-blue-400: #7E7163;
+  --color-blue-500: #544433;
+  --color-blue-600: #544433;
+  --color-blue-700: #2D2923;
+  --color-blue-800: #2D2923;
+  --color-blue-900: #2D2923;
+  --color-blue-950: #2D2923;
+  --color-emerald-50: #F1ECE6;
+  --color-emerald-100: #E5E0D8;
+  --color-emerald-200: #CEC6BD;
+  --color-emerald-300: #B1A89D;
+  --color-emerald-400: #7E7163;
+  --color-emerald-500: #544433;
+  --color-emerald-600: #544433;
+  --color-emerald-700: #2D2923;
+  --color-emerald-800: #2D2923;
+  --color-emerald-900: #2D2923;
+  --color-emerald-950: #2D2923;
+  --color-amber-50: #F6EFE6;
+  --color-amber-100: #EEE5DA;
+  --color-amber-200: #DFD0C1;
+  --color-amber-300: #CDB7A2;
+  --color-amber-400: #AD8C6C;
+  --color-amber-500: #92673F;
+  --color-amber-600: #92673F;
+  --color-amber-700: #544433;
+  --color-amber-800: #544433;
+  --color-amber-900: #2D2923;
+  --color-amber-950: #2D2923;
+  --color-red-50: #F6EFE6;
+  --color-red-100: #EEE5DA;
+  --color-red-200: #DFD0C1;
+  --color-red-300: #CDB7A2;
+  --color-red-400: #AD8C6C;
+  --color-red-500: #92673F;
+  --color-red-600: #92673F;
+  --color-red-700: #544433;
+  --color-red-800: #544433;
+  --color-red-900: #2D2923;
+  --color-red-950: #2D2923;
+  --color-rose-50: #F6EFE6;
+  --color-rose-100: #EEE5DA;
+  --color-rose-200: #DFD0C1;
+  --color-rose-300: #CDB7A2;
+  --color-rose-400: #AD8C6C;
+  --color-rose-500: #92673F;
+  --color-rose-600: #92673F;
+  --color-rose-700: #544433;
+  --color-rose-800: #544433;
+  --color-rose-900: #2D2923;
+  --color-rose-950: #2D2923;
+  --color-purple-50: #F6F3EB;
+  --color-purple-100: #F0ECE3;
+  --color-purple-200: #E3DFD3;
+  --color-purple-300: #D3D0BF;
+  --color-purple-400: #B7B49D;
+  --color-purple-500: #A09D80;
+  --color-purple-600: #A09D80;
+  --color-purple-700: #544433;
+  --color-purple-800: #544433;
+  --color-purple-900: #2D2923;
+  --color-purple-950: #2D2923;
+  --color-indigo-50: #F1ECE6;
+  --color-indigo-100: #E5E0D8;
+  --color-indigo-200: #CEC6BD;
+  --color-indigo-300: #B1A89D;
+  --color-indigo-400: #7E7163;
+  --color-indigo-500: #544433;
+  --color-indigo-600: #544433;
+  --color-indigo-700: #2D2923;
+  --color-indigo-800: #2D2923;
+  --color-indigo-900: #2D2923;
+  --color-indigo-950: #2D2923;
+
+  --font-sans: 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-mono: 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+
+  --font-weight-medium: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 500;
+  --font-weight-extrabold: 500;
+
+  --radius-xs: 0; --radius-sm: 0; --radius-md: 0; --radius-lg: 0;
+  --radius-xl: 0; --radius-2xl: 0; --radius-3xl: 0;
+
+  --shadow-2xs: none; --shadow-xs: none; --shadow-sm: none; --shadow-md: none;
+  --shadow-lg: none; --shadow-xl: none; --shadow-2xl: none;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    font-weight: 300;
+    line-height: 1.7;
+    background: #FDF9F3;
+    color: #2D2923;
+  }
+}
+
+/* Koppen in Newsreader Light (vervanger van Roslindale Display Light) */
+h1, h2, h3 {
+  font-family: var(--font-serif) !important;
+  font-weight: 300 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.18 !important;
+}
+h1 { font-size: clamp(1.75rem, 2.6vw, 2.5rem) !important; }
+h2 { font-size: clamp(1.4rem, 2vw, 1.9rem) !important; }
+h3 { font-size: 1.35rem !important; }
+
+/* Geen animaties of overgangen */
+*, *::before, *::after { transition: none !important; animation: none !important; }
+
+/* Knoppen volgens huisstijl: transparant, gouden rand, hoofdletters */
+button.bg-blue-600, a.bg-blue-600 {
+  background: transparent !important;
+  color: #2D2923 !important;
+  border: 1px solid #AC9A72 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+button.bg-blue-600:hover, a.bg-blue-600:hover { background: #AC9A72 !important; color: #FDF9F3 !important; }
+
+/* Gekozen opties: gouden rand */
+.border-blue-600, .border-blue-500 { border-color: #AC9A72 !important; }
+
+.jw-subkop {
+  font-family: var(--font-sans); font-weight: 400; font-size: 13px;
+  letter-spacing: 0.18em; text-transform: uppercase; color: #AC9A72;
+}
+.jw-lijn { width: 72px; border-top: 1px solid #AC9A72; }
+
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  body { background: white !important; color: black !important; }
+}
